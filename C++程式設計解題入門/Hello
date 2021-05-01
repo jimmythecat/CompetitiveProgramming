@@ -1,7 +1,0 @@
-#include <iostream>
-using namespace std;
-int main(){
-    cout << "This is my first Competitive Programming training book" << endl;
-    cout << "Always remind your self of what NAPELEON BONAPARTE said" << endl;
-    cout << "Victory belongs to the most presevering!";
-}
