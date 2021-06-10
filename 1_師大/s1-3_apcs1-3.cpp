@@ -1,3 +1,4 @@
+// 
 // 大數階乘 + 大數除法 + 減一
 
 #include <iostream>
