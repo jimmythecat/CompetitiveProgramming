@@ -1,4 +1,3 @@
-// greenjudge d081
 #include <iostream>
 #include <string>
 #define ll long long
