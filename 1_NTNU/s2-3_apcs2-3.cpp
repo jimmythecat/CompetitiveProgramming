@@ -35,10 +35,10 @@ int main(){
 	if(leap(y)) days[2] = 29;
 	while(d > days[m]){
 		d -= days[m];
-		m ++;
+		m++;
 		if(m == 13){
 			m = 1;
-			y ++;
+			y++;
 			if(leap(y)) days[2] = 29;
 			else days[2] = 28;
 		}
