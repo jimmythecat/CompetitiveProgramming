@@ -30,13 +30,13 @@ void count(){
 			if(bingo[i][j] == hasfilled) continue;
 			int count = 0, tmpx = 0, tmpy = 0, diagonal1 = 0, diagonal2 = 0;
 			for(int k = 0; k < 5; ++k){
-				if(bingo[i][k] == hasfilled) tmpx ++;
-				if(bingo[k][j] == hasfilled) tmpy ++; 
+				if(bingo[i][k] == hasfilled) tmpx++;
+				if(bingo[k][j] == hasfilled) tmpy++; 
 			}
-			if(i == j) for(int k = 0; k < 5; ++k) if(bingo[k][k] == hasfilled) ++diagonal1; // 左上右下對角線
+			if(i == j) for(int k = 0; k < 5; ++k) if(bingo[k][k] == hasfilled) diagonal1++; // 左上右下對角線
 			if(i + j == 4){		// 右上左下對角線	
 				for(int k = 0; k < 5; ++k){
-					if(bingo[k][4 - k] == hasfilled) ++diagonal2;
+					if(bingo[k][4 - k] == hasfilled) diagonal2++;
 				}		
 			}																		
 			if(tmpx == 4) count++;
